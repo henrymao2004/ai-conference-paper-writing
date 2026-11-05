@@ -114,13 +114,23 @@ on a question is fine.
 Short noun phrases, 1 to 4 words for sections and 1 to 3 for subsections, title case. Finding boxes carry the claim,
 headings carry the topic.
 
-## Related work: contrast the phenomenon
+## Related work: what the closing gap contrasts depends on the paper type
 
-A related-work paragraph names what each group of works found. It ends with the gap this paper fills, and that gap is
-a difference in the phenomenon: who misstates what, what an agent knows, or why it happens. A difference in method
-(different measurements, more models, reading internals) is not a gap, so do not write one. The reader should see
-what earlier work leaves open without being told that it is weaker.
+Each related-work paragraph names what each group of works found and ends with the gap this paper fills. What that gap
+contrasts depends on the paper type:
 
-Breadth comes from grouped citations: one sentence names a line of work and cites five to eight papers at once. Give
-a full sentence to each of the 10 to 15 closest works. Cite the works a reviewer would raise first, and set them
-apart by the phenomenon. Leaving them out reads as hiding them.
+- **Analysis papers.** These report a phenomenon. The gap is a difference in the phenomenon: who misstates what, what
+  an agent knows, or why something happens. A difference in method is no gap here. Different measurements, more
+  models and reading internals all count as method.
+- **Method or algorithm papers.** These propose a technique. The gap is a difference in the mechanism: what the
+  method changes, where it acts and what it costs. "Our approach achieves this via a simple data augmentation… Circuit
+  breakers, on the other hand, achieve this in the model's latent representation space."
+- **Benchmark or dataset papers.** These build an evaluation. The gap is in what the benchmark measures that others do
+  not: the setting, the failure it exposes, the coverage.
+- **Mixed papers.** Use the analysis gap for findings and the mechanism gap for the proposed fix.
+
+In every type, the reader should see what earlier work leaves open without being told that it is weaker.
+
+Breadth comes from grouped citations: one sentence names a line of work and cites five to eight papers at once. Give a
+full sentence to each of the 10 to 15 closest works. Cite the works a reviewer would raise first, and set them apart in
+the way that fits the paper type. Leaving them out reads as hiding them.
