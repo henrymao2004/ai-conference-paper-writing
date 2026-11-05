@@ -113,3 +113,14 @@ on a question is fine.
 
 Short noun phrases, 1 to 4 words for sections and 1 to 3 for subsections, title case. Finding boxes carry the claim,
 headings carry the topic.
+
+## Related work: contrast the phenomenon
+
+A related-work paragraph names what each group of works found. It ends with the gap this paper fills, and that gap is
+a difference in the phenomenon: who misstates what, what an agent knows, or why it happens. A difference in method
+(different measurements, more models, reading internals) is not a gap, so do not write one. The reader should see
+what earlier work leaves open without being told that it is weaker.
+
+Breadth comes from grouped citations: one sentence names a line of work and cites five to eight papers at once. Give
+a full sentence to each of the 10 to 15 closest works. Cite the works a reviewer would raise first, and set them
+apart by the phenomenon. Leaving them out reads as hiding them.
