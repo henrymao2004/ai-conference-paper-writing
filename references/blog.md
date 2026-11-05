@@ -28,3 +28,9 @@ agent should write down every unfinished task." Avoid these:
 - a subordinate "when" or "which" clause hung inside the sentence
 
 If the sentence needs a second fact, make it a second sentence.
+
+## Findings and the umbrella term
+
+Introduce each result as a finding: "We find that …". Name the behavior with the paper's umbrella term, which here is
+"lets the failed work go through". Do not coin a shorthand for it, such as "report done", "a false done" or "says
+done". Keep "says it succeeded" for an agent's literal words.
