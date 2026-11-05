@@ -15,3 +15,16 @@ to "you".
 - A playful aside is allowed now and then.
 - The implications subsections end on questions. The post ends on a quote.
 - Interactive figures show the same running example as the paper, with a switch to compare the success case.
+
+## Words a newcomer can read
+
+A blog is read by people who have not read the paper. Before you use any of the paper's terms (hand-off, item,
+level, blocked worker), say the thing in everyday words. Open with what the work studies, in one or two sentences
+anyone can follow, and explain the running example before the first figure.
+
+Keep the sentences that carry the message short and plain. A person or thing is the subject and does something: "Each
+agent should write down every unfinished task." Avoid these:
+- a gerund or a clause as the subject ("Asking each agent to…", "What helps is…")
+- a subordinate "when" or "which" clause hung inside the sentence
+
+If the sentence needs a second fact, make it a second sentence.
