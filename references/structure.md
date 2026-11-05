@@ -120,10 +120,9 @@ Each related-work paragraph names what each group of works found and ends with t
 contrasts depends on the paper type:
 
 - **Analysis papers.** These report a phenomenon. The gap is a difference in the phenomenon: who misstates what, what
-  an agent knows, or why something happens. A difference in method is no gap here. Different measurements, more
-  models and reading internals all count as method.
-- **Method or algorithm papers.** These propose a technique. The gap is a difference in the mechanism: what the
-  method changes, where it acts and what it costs. "Our approach achieves this via a simple data augmentation… Circuit
+  an agent knows, or why something happens. A difference in method is no gap here.
+- **Method or algorithm papers.** These propose a technique. The gap is a difference in the mechanism or the
+  motivation: what the method changes, where it acts, what it costs, or which problem it sets out to solve. "Our approach achieves this via a simple data augmentation… Circuit
   breakers, on the other hand, achieve this in the model's latent representation space."
 - **Benchmark or dataset papers.** These build an evaluation. The gap is in what the benchmark measures that others do
   not: the setting, the failure it exposes, the coverage.
